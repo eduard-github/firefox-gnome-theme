@@ -28,13 +28,13 @@
 #tabbrowser-tabs arrowscrollbox {
 	height: auto !important;
 	min-height: auto !important;
-	--tab-min-height: 22px !important;
+	--tab-min-height: 18px !important;
 }
 
 tab > stack {
-	height: 22px !important;
-	width: 22px !important;
-	min-height: 22px !important;
+	height: 18px !important;
+	width: 18px !important;
+	min-height: 18px !important;
 }
 
 /* Tabs scroll fade */
@@ -86,7 +86,7 @@ spacer[part=overflow-start-indicator], spacer[part=overflow-end-indicator] {
 	border-radius: 6px !important;
 	margin: 5px 3px 6px !important;
 	padding: 0 9px !important;
-	min-height: 22px !important;
+	min-height: 18px !important;
 	transition: 0.3s;
 }
 #TabsToolbar .toolbarbutton-1:not([disabled]):not(:active):not([open]):hover {
